@@ -20,9 +20,7 @@
             <v-card-actions class="pa-0">
               <p class="headline font-weight-light pt-3">$65.00 <del style="" class="subtitle-1 font-weight-thin">$80.00</del></p>
               <v-spacer></v-spacer>
-              <v-rating v-model="rating" class="" background-color="warning lighten-3"
-                        color="warning" dense></v-rating>
-              <span class="body-2	font-weight-thin"> 25 REVIEWS</span>
+
             </v-card-actions>
             <p class="subtitle-1 font-weight-thin">
             An adorable carrier for cats, giving our beloved pets a window into the outside world while traveling.</p>
@@ -55,7 +53,7 @@
           <v-tabs>
             <v-tab >Description</v-tab>
             <v-tab >Materials</v-tab>
-            <v-tab>REVIEWS</v-tab>
+            
             <v-tab-item>
               <p class="pt-10 subtitle-1 font-weight-thin">
                A light weight carrier for two.Is machine washable and will last for 2 years.  </p>
@@ -65,28 +63,7 @@
                 Made from a polyester cotton compound
               </p>
             </v-tab-item>
-            <v-tab-item>
-              <v-list
-                three-line="true"
-                avatar="true"
-              >
-                <v-list-item-group v-model="item" color="primary">
-                  <v-list-item
-                    v-for="(item, i) in items"
-                    :key="i"
-                    inactive="true"
-                  >
-                    <v-list-item-avatar>
-                      <v-img :src="item.avatar"></v-img>
-                    </v-list-item-avatar>
-                    <v-list-item-content>
-                      <v-list-item-title v-html="item.title"></v-list-item-title><v-rating v-model="rating" class="" background-color="warning lighten-3"
-                                                                                           color="warning" dense></v-rating>
-                      <v-list-item-subtitle v-html="item.subtitle"></v-list-item-subtitle>
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-list-item-group>
-              </v-list>
+            
             </v-tab-item>
           </v-tabs>
           <v-card-text
@@ -196,105 +173,7 @@
                   </v-card>
                 </v-hover>
               </div>
-              <div class="col-md-2 col-sm-4 col-xs-12 text-center" >
-                <v-hover
-                  v-slot:default="{ hover }"
-                  open-delay="200"
-                >
-                  <v-card
-                    :elevation="hover ? 16 : 2"
-                  >
-                    <v-img
-                      class="white--text align-end"
-                      height="200px"
-                      :src="require('../assets/img/shop/5.jpg')"
-                    >
-                      <v-card-title>Shirts </v-card-title>
-                    </v-img>
-
-                    <v-card-text class="text--primary text-center">
-                      <div>Upto 60% + Extra 10%</div>
-                      <div>Nike, Adidas, Puma</div>
-                    </v-card-text>
-
-                    <div class="text-center">
-                      <v-btn
-                        class="ma-2"
-                        outlined
-                        color="info"
-                      >
-                        Explore
-                      </v-btn>
-                    </div>
-                  </v-card>
-                </v-hover>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-12 text-center" >
-                <v-hover
-                  v-slot:default="{ hover }"
-                  open-delay="200"
-                >
-                  <v-card
-                    :elevation="hover ? 16 : 2"
-                  >
-                    <v-img
-                      class="white--text align-end"
-                      height="200px"
-                      :src="require('../assets/img/home/deal4.jpg')"
-                    >
-                      <v-card-title>Beds </v-card-title>
-                    </v-img>
-
-                    <v-card-text class="text--primary text-center">
-                      <div>Upto 60% + Extra 10%</div>
-                      <div>Nike, Adidas, Puma</div>
-                    </v-card-text>
-
-                    <div class="text-center">
-                      <v-btn
-                        class="ma-2"
-                        outlined
-                        color="info"
-                      >
-                        Explore
-                      </v-btn>
-                    </div>
-                  </v-card>
-                </v-hover>
-              </div>
-              <div class="col-md-2 col-sm-4 col-xs-12 text-center" >
-                <v-hover
-                  v-slot:default="{ hover }"
-                  open-delay="200"
-                >
-                  <v-card
-                    :elevation="hover ? 16 : 2"
-                  >
-                    <v-img
-                      class="white--text align-end"
-                      height="200px"
-                      :src="require('../assets/img/shop/3.jpg')"
-                    >
-                      <v-card-title>Jackets </v-card-title>
-                    </v-img>
-
-                    <v-card-text class="text--primary text-center">
-                      <div>Upto 60% + Extra 10%</div>
-                      <div>Nike, Adidas, Puma</div>
-                    </v-card-text>
-
-                    <div class="text-center">
-                      <v-btn
-                        class="ma-2"
-                        outlined
-                        color="info"
-                      >
-                        Explore
-                      </v-btn>
-                    </div>
-                  </v-card>
-                </v-hover>
-              </div>
+              
             </div>
           </v-card-text>
         </div>
