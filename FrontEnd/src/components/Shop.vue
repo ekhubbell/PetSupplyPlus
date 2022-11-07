@@ -45,13 +45,7 @@
               </v-col>
             </v-row>
             <v-divider></v-divider>
-            <v-card-title class="pb-0">Customer Rating</v-card-title>
-            <v-container class="pt-0"  fluid>
-              <v-checkbox append-icon="mdi-star" label="4 & above" hide-details dense></v-checkbox>
-              <v-checkbox append-icon="mdi-star" label="3 & above" hide-details dense></v-checkbox>
-              <v-checkbox append-icon="mdi-star" label="2 & above" hide-details dense></v-checkbox>
-              <v-checkbox append-icon="mdi-star" label="1 & above" hide-details dense></v-checkbox>
-            </v-container>
+           
             <v-divider></v-divider>
             <v-card-title class="pb-0">Size</v-card-title>
             <v-container class="pt-0" fluid>
@@ -142,10 +136,9 @@
     export default {
         data: () => ({
             range: [0, 10000],
-            select:'Popularity',
+            select:'Default',
             options: [
                 'Default',
-                'Popularity',
                 'Relevance',
                 'Price: Low to High',
                 'Price: High to Low',
@@ -158,14 +151,19 @@
                     href: 'breadcrumbs_home',
                 },
                 {
-                    text: 'Clothing',
+                    text: 'Toys',
                     disabled: false,
                     href: 'breadcrumbs_clothing',
                 },
                 {
-                    text: 'T-Shirts',
-                    disabled: true,
-                    href: 'breadcrumbs_shirts',
+                  text: 'Treats',
+                  disabled: true,
+                  href: 'breadcrumbs_shirts',
+                },
+                {
+                text: 'Accessories',
+                disabled: true,
+                href: 'breadcrumbs_shirts',
                 },
             ],
             min:0,
@@ -173,105 +171,118 @@
             items: [
                 {
                     id: 2,
-                    name: 'Shoes',
+                    name: 'Toys',
                     children: [
-                        { id: 2, name: 'Casuals' },
-                        { id: 3, name: 'Formals' },
-                        { id: 4, name: 'Sneakers' },
+                        { id: 2, name: 'Dogs' },
+                        { id: 3, name: 'Cats' },
+                        { id: 4, name: 'Birds' },
+                        { id: 5, name: 'Other' },
                     ],
                 },
                 {
                     id: 1,
-                    name: 'Clothing',
+                    name: 'Treats',
                     children: [
-                        { id: 5, name: 'Shirts' },
-                        { id: 6, name: 'Tops' },
-                        { id: 7, name: 'Tunics' },
-                        { id: 8, name: 'Bodysuit' },
+                      { id: 6, name: 'Dogs' },
+                      { id: 7, name: 'Cats' },
+                      { id: 8, name: 'Birds' },
+                      { id: 9, name: 'Other' },
                     ],
-                }
+                },
+                {
+                id: 3,
+                name: 'Accessories',
+                children: [
+                  { id: 2, name: 'Dogs' },
+                  { id: 3, name: 'Cats' },
+                  { id: 4, name: 'Birds' },
+                  { id: 5, name: 'Other' },
+                ],
+              },
             ],
             products:[
                 {
                     id:1,
-                    name:'BLACK TEE',
-                    type:'Jackets',
+                    name:'Tennis Balls',
+                    type:'Toys',
                     price:'18.00',
                     src:require('../assets/img/shop/1.jpg')
                 },
                 {
                     id:2,
-                    name:'WHITE TEE',
-                    type:'Polo',
+                    name:'Laser Pointers',
+                    type:'Toys',
                     price:'40.00',
                     src:require('../assets/img/shop/2.jpg')
                 },
                 {
                     id:3,
-                    name:'Zara limited...',
-                    type:'Denim',
+                    name:'Bells',
+                    type:'Toys',
                     price:'25.00',
                     src:require('../assets/img/shop/3.jpg')
                 },
                 {
-                    id:4,
-                    name:'SKULL TEE',
-                    type:'Jackets',
+                  id: 4,
+                  name: 'Running-Wheels',
+                  type: 'Toys',
+                  price: '25.00',
+                  src: require('../assets/img/shop/8.jpg')
+                },
+                {
+                    id:5,
+                    name:'Bones',
+                    type:'Treats',
                     price:'30.00',
                     src:require('../assets/img/shop/4.jpg')
                 },
                 {
-                    id:5,
-                    name:'MANGO WINTER',
-                    type:'Sweaters',
+                    id:6,
+                    name:'Cat-Nip',
+                  type:'Treats',
                     price:'50.00',
                     src:require('../assets/img/shop/5.jpg')
                 },
                 {
-                    id:6,
-                    name:'SHIRT',
-                    type:'Denim',
+                    id:7,
+                    name:'Sunflower Seeds',
+                  type:'Treats',
                     price:'34.00',
                     src:require('../assets/img/shop/6.jpg')
                 },
                 {
-                    id:7,
-                    name:'TRUCKER JACKET',
-                    type:'Jackets',
+                    id:8,
+                    name:'Field Mice',
+                  type:'Treats',
                     price:'38.00',
                     src:require('../assets/img/shop/7.jpg')
                 },
+                
                 {
-                    id:8,
-                    name:'COATS',
-                    type:'Jackets',
-                    price:'25.00',
-                    src:require('../assets/img/shop/8.jpg')
-                },{
                     id:9,
-                    name:'MANGO WINTER',
-                    type:'Sweaters',
+                    name:'Costume',
+                    type:'Accessories',
                     price:'50.00',
                     src:require('../assets/img/shop/9.jpg')
                 },
                 {
                     id:10,
-                    name:'SHIRT',
-                    type:'Denim',
+                    name:'Bedding',
+                    type:'Accessories',
                     price:'34.00',
                     src:require('../assets/img/shop/10.jpg')
                 },
                 {
                     id:11,
-                    name:'TRUCKER JACKET',
-                    type:'Jackets',
+                    name:'Nail Clippers',
+                    type:'Accessories',
                     price:'38.00',
                     src:require('../assets/img/shop/11.jpg')
                 },
                 {
                     id:12,
-                    name:'COATS',
-                    type:'Jackets',
+                    name:'Brush',
+                    type:'Accessories',
                     price:'25.00',
                     src:require('../assets/img/shop/12.jpg')
                 }
