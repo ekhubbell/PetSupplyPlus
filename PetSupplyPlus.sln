@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PetSupplyPlus", ".", "{21C35D95-F1E2-4200-AE06-34C48F2FB805}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PetSupplyPlus", ".", "{204436EC-5DA3-4791-8570-AE1A07513956}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64686"
@@ -24,13 +24,24 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PetSupplyPlus", ".", "{21C3
 		SlnRelativePath = "..\PetSupplyPlus\"
 	EndProjectSection
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "petsupplyplusvueproject", "..\PetSupplyPlusVueProject\petsupplyplusvueproject.esproj", "{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{21C35D95-F1E2-4200-AE06-34C48F2FB805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21C35D95-F1E2-4200-AE06-34C48F2FB805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204436EC-5DA3-4791-8570-AE1A07513956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204436EC-5DA3-4791-8570-AE1A07513956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204436EC-5DA3-4791-8570-AE1A07513956}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{204436EC-5DA3-4791-8570-AE1A07513956}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE118FF4-2E75-45CE-8FFC-B299D2D6ECF8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
