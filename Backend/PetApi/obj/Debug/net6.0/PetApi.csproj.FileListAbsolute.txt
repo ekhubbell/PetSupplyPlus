@@ -1,0 +1,7 @@
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.csproj.AssemblyReference.cache
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.AssemblyInfoInputs.cache
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.AssemblyInfo.cs
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.csproj.CoreCompileInputs.cache
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.MvcApplicationPartsAssemblyInfo.cs
+C:\dev\PetSupplyPlus\Backend\PetApi\obj\Debug\net6.0\PetApi.MvcApplicationPartsAssemblyInfo.cache
