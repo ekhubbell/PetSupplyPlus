@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Google.Protobuf.WellKnownTypes;
+using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Utilities;
 using PetApi.Models;
+using System.Xml.Linq;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -32,7 +34,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString()));
+                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString()));
                 }
                 rdr.Close();
             }
@@ -62,7 +64,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    item = new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString());
+                    item = new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString());
                 }
                 rdr.Close();
             }
@@ -95,7 +97,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString()));
+                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString()));
                 }
                 rdr.Close();
             }
@@ -125,7 +127,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString()));
+                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString()));
                 }
                 rdr.Close();
             }
@@ -151,7 +153,7 @@ namespace PetApi.Controllers
                 Console.WriteLine("Connecting...");
                 conn.Open();
 
-                string sql = String.Format("insert into items value({0},\"{1}\",\"{2}\",{3},{4})", id, name, desc, quant, petType);
+                string sql = String.Format("insert into items value({0},\"{1}\",\"{2}\",{03},{4})", id, name, desc, quant, petType);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 conn.Close();
             }
@@ -163,14 +165,61 @@ namespace PetApi.Controllers
 
         // PUT api/<ItemsController>/5 this is where to update
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void PutQuantity(int id, [FromBody] string value)
         {
+            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            try
+            {
+                Console.WriteLine("Connecting...");
+                conn.Open();
+
+                string sql = String.Format("UPDATE items SET quantity ={0} WHERE itemId = {1}", value, id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                conn.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+        }
+
+        [HttpPut("{id}")]
+        public void PutPrice(int id, [FromBody] string value)
+        {
+            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            try
+            {
+                Console.WriteLine("Connecting...");
+                conn.Open();
+
+                string sql = String.Format("UPDATE items SET price ={0} WHERE itemId = {1}", value, id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                conn.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
         }
 
         // DELETE api/<ItemsController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            try
+            {
+                Console.WriteLine("Connecting...");
+                conn.Open();
+
+                string sql = String.Format("DELETE from items SET WHERE itemId = {2}", id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                conn.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
         }
     }
 }
