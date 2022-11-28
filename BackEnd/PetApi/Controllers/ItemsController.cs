@@ -19,7 +19,7 @@ namespace PetApi.Controllers
     public class ItemsController : ControllerBase
     {
         private string tableName = "items";
-        private string primaryKey = "item_Id";
+        private string primaryKey = "";
         private string specialKey = "item_name";
         private GatherInfo info = new GatherInfo();
 
@@ -96,7 +96,7 @@ namespace PetApi.Controllers
         public Item Get(int id)
         {
             Item item = new Item();
-
+            primaryKey = info.getKeys(tableName).primary;
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
@@ -133,9 +133,10 @@ namespace PetApi.Controllers
             {
                 Console.WriteLine("Connecting...");
                 conn.Open();
-
-                string sql = String.Format("insert into {5} value({0},\"{1}\",\"{2}\",{3},{4})", item.Item_ID, item.Name, item.Desc, item.Quantity, item.PetType, tableName);
+               // "insert into items values('1','Treats','Vegan cat treats 15 pack','5.99','50','1');"
+                string sql = String.Format("insert into {6} values({0},\"{1}\",\"{2}\",{3},{4},{5});", item.Item_ID, item.Name, item.Desc,item.Price, item.Quantity, item.PetType, tableName);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
                 conn.Close();
             }
             catch (Exception e)
@@ -144,8 +145,9 @@ namespace PetApi.Controllers
             }
         }
 
+
         // PUT api/<ItemsController>/5 this is where to update
-        [HttpPut("{Value}")]
+        [HttpPut]
         public void Put(int id, [FromBody] string value, string key)
         {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
@@ -155,18 +157,33 @@ namespace PetApi.Controllers
                 conn.Open();
 
                 keys = info.getKeys(tableName);
-                if (!keys.name.Contains(key))
+                primaryKey = keys.primary;
+                int index = keys.name.IndexOf(key);
+                if (index ==-1)
                 {
                     throw new Exception(string.Format("{0} is not a valid parameter", key));
                 }
-                
-                string sql = String.Format("UPDATE {3} SET {0} ={1} WHERE {4} = {2}", key, value, id, tableName, primaryKey);
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                conn.Close();
+                else
+                {
+                    double num;
+                    string temp = "";
+                    if ((keys.datatype[index].Equals("int") && value.All(char.IsDigit)) || (string.IsNullOrEmpty(value) && keys.datatype[index].Equals("double") && Double.TryParse(value, out num)))
+                    {
+                        temp = "UPDATE {0} SET {1} ={2} WHERE {3} = {4}";
+                    }
+                    else
+                    {
+                        temp = "UPDATE {0} SET {1} ='{2}' WHERE {3} = {4}";
+                    }
+                    string sql = String.Format(temp,tableName, key, value, primaryKey, id);
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    cmd.ExecuteNonQuery();
+                    conn.Close();
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                Console.WriteLine(e.Message);
             }
         }
 
@@ -174,14 +191,16 @@ namespace PetApi.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            primaryKey = info.getKeys(tableName).primary;
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
                 conn.Open();
 
-                string sql = String.Format("DELETE from {0} SET WHERE {2} = {1}",tableName, id, primaryKey);
+                string sql = String.Format("DELETE FROM {0} WHERE {1} = {2}",tableName, primaryKey, id);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
                 conn.Close();
             }
             catch (Exception e)
