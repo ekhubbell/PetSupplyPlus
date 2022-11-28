@@ -1,14 +1,16 @@
-﻿namespace PetApi.Models
+﻿using System.Security.Policy;
+
+namespace PetApi.Models
 {
     public class C_Usernames
     {
-       
+        public string userID { get; set; }
         public string userName { get; set; }
         public string password { get; set; }
 
-        public C_Usernames(string userN, string passwd)
+        public C_Usernames(string userid, string userN, string passwd)
         {
-
+            userID = userid;
             userName = userN;
             password = passwd;
         }

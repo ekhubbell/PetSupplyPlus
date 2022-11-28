@@ -12,7 +12,7 @@ namespace PetApi.Controllers
     [ApiController]
     public class C_usernamesController : ControllerBase
     {
-        const string CONNSTR = "server=localhost;user=root;database=;port=3306;password=Cosplayer2!;";
+        const string CONNSTR = "server=localhost;user=root;database = petsupplyplus;port=3306;password=root;";
 
         // GET: api/<C_usernamesController>
         [HttpGet]
@@ -27,12 +27,12 @@ namespace PetApi.Controllers
 
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
-                string sql = "SELECT * FROM C_Username union select * from E_Username";
+                string sql = "SELECT * FROM C_Username union select * from E_Username;";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    userNames.Add(new C_Usernames(rdr[0].ToString(), rdr[1].ToString()));
+                    userNames.Add(new C_Usernames(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString()));
                 }
                 rdr.Close();
             }
@@ -64,7 +64,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    login = new C_Usernames(rdr[0].ToString(), rdr[1].ToString());
+                    login = new C_Usernames(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString());
                 }
                 rdr.Close();
             }
@@ -86,16 +86,16 @@ namespace PetApi.Controllers
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
 
-                string sql = "SELECT * FROM C_Username WHERE Username = " + username + "and password = " + password;
+                string sql = "SELECT * FROM C_Username WHERE Username = " + username + "and password = MD5(" + password+")";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 if (rdr.HasRows) { return "URL USER LOGIN"; }
 
-                string sql1 = "SELECT * FROM E_Username WHERE Username = " + username + "and password = " + password;
+                string sql1 = "SELECT * FROM E_Username WHERE Username = " + username + "and password = MD5(" + password + ")";
                 MySqlCommand cmd1 = new MySqlCommand(sql1, conn);
                 MySqlDataReader rdr1 = cmd1.ExecuteReader();
                 if (rdr1.HasRows) { return "URL employee LOGIN"; }
-
+                else { return "Username or password is incorrect."; }
             }
             catch (Exception e)
             {
@@ -106,7 +106,7 @@ namespace PetApi.Controllers
             Console.WriteLine("Done.");
             return "error - possibly redirect to url for login error";
         }
-        // PUT api/<ItemsController>/5 this is where to update
+        // PUT api/<C_UsernameController>/5 this is where to update
         [HttpPut("{id}")]
         public void Put(string userName, [FromBody] string password)
         {
@@ -121,9 +121,9 @@ namespace PetApi.Controllers
             if (rdr.HasRows)
             {
                 MySqlCommand cmdCus = new MySqlCommand(sqlupdate1, conn);
-                MySqlDataReader rdrCus = cmdCus.ExecuteReader();
+                cmdCus.ExecuteNonQuery();
 
-                ;
+                
             }
 
             string sqlEmployee = "SELECT * FROM E_Username WHERE Username = " + userName + "and password = " + password;
@@ -133,12 +133,46 @@ namespace PetApi.Controllers
             if (rdr1.HasRows)
             {
                 MySqlCommand cmdEmploy = new MySqlCommand(sqlEmployee, conn);
-                MySqlDataReader rdrCus = cmdEmploy.ExecuteReader();
+                cmdEmploy.ExecuteNonQuery();
             }
 
 
 
         }
+        // PUT api/<C_UsernameController>/5 this is where to update
+        [HttpPut("{id}")]
+        public void Put(string userName, [FromBody] string password)
+        {
+            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            Console.WriteLine("Connecting to database...");
+            conn.Open();
+
+            string sql = "SELECT * FROM C_Username WHERE Username = " + userName + "and password = " + password;
+            string sqlupdate1 = "update C_Username set password =" + password;
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            if (rdr.HasRows)
+            {
+                MySqlCommand cmdCus = new MySqlCommand(sqlupdate1, conn);
+                cmdCus.ExecuteNonQuery();
+
+
+            }
+
+            string sqlEmployee = "SELECT * FROM E_Username WHERE Username = " + userName + "and password = " + password;
+            string sqlupdateEmployee = "update E_Username set password =" + password;
+            MySqlCommand cmd1 = new MySqlCommand(sqlEmployee, conn);
+            MySqlDataReader rdr1 = cmd1.ExecuteReader();
+            if (rdr1.HasRows)
+            {
+                MySqlCommand cmdEmploy = new MySqlCommand(sqlEmployee, conn);
+                cmdEmploy.ExecuteNonQuery();
+            }
+
+
+
+        }
+
 
 
     }
