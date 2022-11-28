@@ -6,35 +6,40 @@ namespace PetApi.Helpers
     public class GatherInfo
     {
 
-        private const string CONNSTR = "server=localhost;user=root;database=petsupplyplus;port=3306;password=;";
+        private const string CONNSTR = "server=localhost;user=root;database=petsupplyplus;port=3306;password=Cosplayer2!;";
         private const string DBNAME = "petsupplyplus";
-        public List<string> getKeys(string table)
+        public TableData getKeys(string table)
         {
-            List<string> keys = new List<string>();
-
             MySqlConnection conn = new MySqlConnection(CONNSTR);
             try
             {
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
-                string sql = string.Format("SELECT COLUMN_NAME  FROM INFORMATION_SCHEMA.COLUMNS  WHERE TABLE_SCHEMA = {0} AND TABLE_NAME = {1};", DBNAME, table);
+                string sql = string.Format("SELECT COLUMN_NAME, DATA_TYPE  FROM INFORMATION_SCHEMA.COLUMNS  WHERE TABLE_SCHEMA = '{0}' AND TABLE_NAME = '{1}';", DBNAME, table);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
+                List<string> keyName = new List<string>();
+                List<string> dataType = new List<string>();
                 while (rdr.Read())
                 {
-                    keys.Add(rdr[0].ToString());
+                    keyName.Add(rdr[0].ToString());
+                    dataType.Add(rdr[1].ToString());
                 }
+                TableData key = new TableData(keyName, dataType);
                 rdr.Close();
 
                 conn.Close();
+
+
+
+                Console.WriteLine("Done.");
+                return key;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
             }
-
-            Console.WriteLine("Done.");
-            return keys;
+            return null;
         }
 
         public string GetConnection()

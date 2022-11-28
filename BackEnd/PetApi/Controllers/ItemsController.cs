@@ -5,6 +5,8 @@ using Org.BouncyCastle.Utilities;
 using PetApi.Models;
 using PetApi.Helpers;
 using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -21,23 +23,23 @@ namespace PetApi.Controllers
         private string specialKey = "item_name";
         private GatherInfo info = new GatherInfo();
 
-        private List<string> keys = null;
+        private TableData keys;
         // GET: api/<ItemsController>
         [HttpGet]
         public IEnumerable<Item> Get(string searchBy = "noValue", string searchWord = "noValue")
         {
             var items = new List<Item>();
-
+            Console.WriteLine(info.GetConnection());
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
-                string sql = string.Format("SELECT * FROM {1}", tableName);
+                string sql = string.Format("SELECT * FROM {0}", tableName);
                 if (!searchBy.Equals("noValue"))
                 {
                     keys = info.getKeys(tableName);
-                    if (keys.Contains(searchBy))
+                    if (keys.name.Contains(searchBy))
                     {
                         if (searchBy.Equals(specialKey))
                         {
@@ -45,7 +47,24 @@ namespace PetApi.Controllers
                         }
                         else
                         {
-                            sql = string.Format("SELECT * FROM {2} WHERE {0} = {1}", searchBy, searchWord, tableName);
+                            string temp = "";
+                            if (!string.IsNullOrEmpty(searchWord))
+                            {
+                                double num = 0;
+                                int index = keys.name.IndexOf(searchBy);
+                                string dataType = keys.datatype[index];
+                                if ((dataType.Equals("int") && searchWord.All(char.IsDigit)) || (dataType.Equals("double") && Double.TryParse(searchWord, out num)))
+                                {
+                                    temp = "SELECT * FROM {2} WHERE {0} = {1}";
+                                }
+                                
+                                else
+                                {
+                                    temp = "SELECT * FROM {2} WHERE {0} = '{1}'";
+                                }
+
+                                sql = string.Format(temp, searchBy, searchWord, tableName);
+                            }
                         }
                     }
                     else
@@ -53,7 +72,7 @@ namespace PetApi.Controllers
                         throw new ArgumentException(string.Format("{0} is not a valid parameter", searchBy));
                     }
                 }
-                
+                Console.WriteLine(sql);
 
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
@@ -136,7 +155,7 @@ namespace PetApi.Controllers
                 conn.Open();
 
                 keys = info.getKeys(tableName);
-                if (!keys.Contains(key))
+                if (!keys.name.Contains(key))
                 {
                     throw new Exception(string.Format("{0} is not a valid parameter", key));
                 }
