@@ -12,7 +12,7 @@ namespace PetApi.Controllers
     [ApiController]
     public class C_usernamesController : ControllerBase
     {
-        const string CONNSTR = "server=localhost;user=root;database=;port=3306;password=;";
+        const string CONNSTR = "server=localhost;user=root;database=;port=3306;password=Cosplayer2!;";
 
         // GET: api/<C_usernamesController>
         [HttpGet]
@@ -77,7 +77,7 @@ namespace PetApi.Controllers
             Console.WriteLine("Done.");
             return login;
         }
-
+        [HttpGet("{username}/log")]
         public string checks(string username, string password)
         {
             MySqlConnection conn = new MySqlConnection(CONNSTR);
@@ -118,17 +118,20 @@ namespace PetApi.Controllers
             string sqlupdate1 = "update C_Username set password =" + password;
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             MySqlDataReader rdr = cmd.ExecuteReader();
-            if (rdr.HasRows) {
+            if (rdr.HasRows)
+            {
                 MySqlCommand cmdCus = new MySqlCommand(sqlupdate1, conn);
                 MySqlDataReader rdrCus = cmdCus.ExecuteReader();
 
-                ; }
+                ;
+            }
 
             string sqlEmployee = "SELECT * FROM E_Username WHERE Username = " + userName + "and password = " + password;
             string sqlupdateEmployee = "update E_Username set password =" + password;
             MySqlCommand cmd1 = new MySqlCommand(sqlEmployee, conn);
             MySqlDataReader rdr1 = cmd1.ExecuteReader();
-            if (rdr1.HasRows) {
+            if (rdr1.HasRows)
+            {
                 MySqlCommand cmdEmploy = new MySqlCommand(sqlEmployee, conn);
                 MySqlDataReader rdrCus = cmdEmploy.ExecuteReader();
             }
@@ -137,7 +140,6 @@ namespace PetApi.Controllers
 
         }
 
-        
+
     }
 }
-      

@@ -78,87 +78,17 @@ namespace PetApi.Controllers
 
         }
 
-        // GET api/<ItemsController>/5
-        [HttpGet("{name}")]
-        public IEnumerable<Item> GetByName(string name)
-        {
-            var items = new List<Item>();
+       
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
-            try
-            {
-                Console.WriteLine("Connecting to database...");
-                conn.Open();
-
-                string sql = "SELECT * FROM items WHERE item_Name LIKE %\""+ name +"\"%";
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
-                {
-                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString()));
-                }
-                rdr.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-
-            conn.Close();
-            Console.WriteLine("Done.");
-            return items;
-        }
-
-        [HttpGet("{id}")]
-        public IEnumerable<Item> GetByType(int id)
-        {
-            var items = new List<Item>();
-
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
-            try
-            {
-                Console.WriteLine("Connecting to database...");
-                conn.Open();
-
-                string sql = "SELECT * FROM items WHERE petType = " +id;
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataReader rdr = cmd.ExecuteReader();
-                while (rdr.Read())
-                {
-                    items.Add(new Item(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString()));
-                }
-                rdr.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-
-            conn.Close();
-            Console.WriteLine("Done.");
-            return items;
-        }
+       
 
 
 
         // POST api/<ItemsController> this adds new items
         [HttpPost]
-        public void Post([FromBody] string id, [FromBody] string name, [FromBody] string desc, [FromBody] string quant, [FromBody] string petType)
+        public void Post([FromBody] Item item)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
-            try
-            {
-                Console.WriteLine("Connecting...");
-                conn.Open();
-
-                string sql = String.Format("insert into items value({0},\"{1}\",\"{2}\",{3},{4})", id, name, desc, quant, petType);
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                conn.Close();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
+            
         }
 
         // PUT api/<ItemsController>/5 this is where to update
