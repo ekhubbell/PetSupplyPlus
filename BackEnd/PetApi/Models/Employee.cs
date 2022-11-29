@@ -13,7 +13,7 @@ namespace PetApi.Models
 
         public Employee(string id, string fname, string lname, string mail, string phon)
         {
-            Item_ID = id;
+            employee_ID = id;
             firstName = fname;
             lastName = lname;
             email = mail;
