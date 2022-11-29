@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Utilities;
+using PetApi.Helpers;
 using PetApi.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,8 +14,7 @@ namespace PetApi.Controllers
 
     public class EmployeeController : ControllerBase
     {
-
-        const string CONNSTR = "server=localhost;user=root;database=petsupply;port=3306;password=KMX10!@m;";
+        GatherInfo info = new GatherInfo();
 
         // GET: api/<EmployeeController> get the data from the employee table
         [HttpGet]
@@ -22,7 +22,7 @@ namespace PetApi.Controllers
         {
             var items = new List<Employee>();
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -52,7 +52,7 @@ namespace PetApi.Controllers
         {
             Employee item = new Employee();
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -85,7 +85,7 @@ namespace PetApi.Controllers
         //        [HttpPost]
         //        public void Post([FromBody] string id, [FromBody] string fname, [FromBody] string lname, [FromBody] string mail, [FromBody] string phon)
         //        {
-        //            MySqlConnection conn = new MySqlConnection(CONNSTR);
+        //            MySqlConnection conn = new MySqlConnection(info.GetConnection());
         //            try
         //            {
         //                Console.WriteLine("Connecting...");
@@ -106,7 +106,7 @@ namespace PetApi.Controllers
         public void Put([FromBody] string Value, string id, string key)
         {
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
@@ -130,7 +130,7 @@ namespace PetApi.Controllers
         //        [HttpDelete("{id}")]
         //        public void Delete([FromBody] string id, [FromBody] string fname, [FromBody] string lname, [FromBody] string mail, [FromBody] string phon)
         //        {
-        //            MySqlConnection conn = new MySqlConnection(CONNSTR);
+        //            MySqlConnection conn = new MySqlConnection(info.GetConnection());
         //            try
         //            {
         //                Console.WriteLine("Connecting...");
