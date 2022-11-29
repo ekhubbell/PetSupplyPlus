@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="CEstyle.css">
+        <title>Homepage</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    
+    </head>
+<body>
+ <!-- Navbar Start -->
+ <div class="w3-bar w3-border w3-green">
+    <a href="customer.html" class="w3-bar-item w3-button">Home</a>
+    <a href="cart.html" class="w3-bar-item w3-button">Cart</a>
+    <a href="order.html" class="w3-bar-item w3-button">Orders</a>
+ </div>
+<!-- Navbar End -->
+
+<h2>PetSupply+ Items</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:25%;">Pet Type</th>
+    <th style="width:25%;">Item</th>
+    <th style="width:25%">Price</th>
+    <th style="width:25%">Cart</th>
+
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Germany</td>
+    <td>4.99</td>
+    <td>
+          <div class="quantity">
+            <input type="number" value="1" min="0" class="quantity-field">
+          </div>
+          <div class="add">
+            <button>Add</button>
+          </div>
+    </td>
+
+
+  </tr>
+  <tr>
+    <td>Berglunds snabbkop</td>
+    <td>Sweden</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Koniglich Essen</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Canada</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+    <td>UK</td>
+  </tr>
+  <tr>
+    <td>Paris specialites</td>
+    <td>France</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+
+</body>
+</html>
