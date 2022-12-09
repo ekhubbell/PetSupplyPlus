@@ -8,14 +8,16 @@ namespace PetApi.Models
         public string Item_ID { get; set; }
         public string Name { get; set; }
         public string Desc { get; set; }
+        public string Price { get; set; }
         public string Quantity { get; set; }
         public string PetType { get; set; }
 
-        public Item(string id, string name, string desc, string quantity, string petType)
+        public Item(string id, string name, string desc, string price, string quantity, string petType)
         {
             Item_ID = id;
             Name = name;
             Desc = desc;
+            Price = price;
             Quantity = quantity;
             PetType = petType;
         }
