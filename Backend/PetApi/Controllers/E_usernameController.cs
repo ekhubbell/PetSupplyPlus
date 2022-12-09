@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using NuGet.Protocol.Plugins;
 using Org.BouncyCastle.Utilities;
+using PetApi.Helpers;
 using PetApi.Models;
 using System.Xml.Linq;
 
@@ -13,7 +14,8 @@ namespace PetApi.Controllers
     [ApiController]
     public class E_usernameController : ControllerBase
     {
-        const string CONNSTR = "server=localhost;user=root;database = petsupplyplus;port=3306;password=root;";
+        GatherInfo infor = new GatherInfo();
+        //onst string CONNSTR = "server=localhost;user=root;database = petsupplyplus;port=3306;password=root;";
 
         // GET: api/<E_usernameController>
         [HttpGet]
@@ -21,7 +23,7 @@ namespace PetApi.Controllers
         {
             var userNames = new List<E_Usernames>();
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
 
@@ -52,7 +54,7 @@ namespace PetApi.Controllers
         [HttpPost]
         public void Post([FromBody] E_Usernames info)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
@@ -73,7 +75,7 @@ namespace PetApi.Controllers
         [HttpPut("{id}")]
         public void Put([FromBody] E_Usernames info, int id)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
 
             try
             {
@@ -110,7 +112,7 @@ namespace PetApi.Controllers
             [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");

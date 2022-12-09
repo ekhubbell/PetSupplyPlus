@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using NuGet.Protocol.Plugins;
 using Org.BouncyCastle.Utilities;
+using PetApi.Helpers;
 using PetApi.Models;
 using System.Xml.Linq;
 
@@ -12,7 +13,9 @@ namespace PetApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class C_usernamesController : ControllerBase
+
     {
+        GatherInfo infor = new GatherInfo();
         const string CONNSTR = "server=localhost;user=root;database = petsupplyplus;port=3306;password=root;";
 
         // GET: api/<C_usernamesController>
@@ -22,7 +25,7 @@ namespace PetApi.Controllers
         {
             var userNames = new List<C_Usernames>();
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
 
@@ -54,7 +57,7 @@ namespace PetApi.Controllers
 
         {
             C_Usernames login = new C_Usernames();
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -81,7 +84,7 @@ namespace PetApi.Controllers
         [HttpGet("{username}/log")]
         public string checks(string username, string password)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -125,8 +128,9 @@ namespace PetApi.Controllers
 
         public void Put([FromBody] C_Usernames info, int id)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
-            
+
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
+
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -164,7 +168,7 @@ namespace PetApi.Controllers
             [HttpPost]
             public void Post([FromBody] C_Usernames info)
             {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(infor.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
@@ -188,7 +192,7 @@ namespace PetApi.Controllers
         [HttpDelete("{C_id}")]
         public void Delete(int C_id)
         {
-                MySqlConnection conn = new MySqlConnection(CONNSTR);
+                MySqlConnection conn = new MySqlConnection(infor.GetConnection());
                 try
                 {
                     Console.WriteLine("Connecting...");
