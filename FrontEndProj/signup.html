@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <title>PetSupply +</title>
+    </head>
+<body>
+
+    <div class="login-page">
+        <div class="form">
+          <div class="login">
+            <div class="login-header">
+              <h3>REGISTER NOW</h3>
+              <p>Please enter your credentials to register.</p>
+            </div>
+          </div>
+          <form class="login-form">
+            <input type = "text" placeholder ="First Name"/>
+            <input type = "text" placeholder ="Last Name"/>
+            <input type="email" placeholder="Email"/>
+            <input type="password" placeholder="Password"/>
+            <input type = "password" placeholder ="Confirm Password"/>     
+            <select name = "user-type">
+                <option value="user">CUSTOMER</option>
+                <option value="user">EMPLOYEE</option>
+            </select>
+            <br>
+            <button><a href = "customer.html">REGISTER</a></button> <!-- used to link to go to homepage depending on customer/user not sure if we 
+            will have to create a java script to differentiate who goes where. I could make a employee login vs a customer log in and then reference
+        it to two different pages... not sure have to check in with team.-->
+            <p class="message">Already have an account? <a href="index.html">Login now</a></p>
+          </form>
+        </div>
+      </div>
+        
+</body>
+</html>
