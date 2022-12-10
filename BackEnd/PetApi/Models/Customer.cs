@@ -14,8 +14,9 @@ namespace PetApi.Models
         public string zipcode { get; set; }
         public string email { get; set; }
         public string phone { get; set; }
+        public string password { get; set; }
 
-        public Customer(string id, string fname, string lname, string addr, string cit, string s_id, string zip, string mail, string phon)
+        public Customer(string id, string fname, string lname, string addr, string cit, string s_id, string zip, string mail, string phon, string password = null)
         {
             Cust_ID = id;
             firstName = fname;
@@ -26,6 +27,7 @@ namespace PetApi.Models
             zipcode = zip;
             email = mail;
             phone = phon;
+            this.password = password;
         }
         public Customer()
         {

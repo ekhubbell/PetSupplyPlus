@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using NuGet.Protocol.Plugins;
 using Org.BouncyCastle.Utilities;
+using PetApi.Helpers;
 using PetApi.Models;
 using System.Xml.Linq;
 
@@ -13,7 +14,7 @@ namespace PetApi.Controllers
     [ApiController]
     public class C_usernamesController : ControllerBase
     {
-        const string CONNSTR = "server=localhost;user=root;database = petsupplyplus;port=3306;password=root;";
+        GatherInfo info = new GatherInfo();
 
         // GET: api/<C_usernamesController>
         [HttpGet]
@@ -22,7 +23,7 @@ namespace PetApi.Controllers
         {
             var userNames = new List<C_Usernames>();
 
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
 
@@ -54,7 +55,7 @@ namespace PetApi.Controllers
 
         {
             C_Usernames login = new C_Usernames();
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -81,7 +82,7 @@ namespace PetApi.Controllers
         [HttpGet("{username}/log")]
         public string checks(string username, string password)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -123,9 +124,9 @@ namespace PetApi.Controllers
         //// PUT api/<C_UsernameController>/5 this is where to update passwords
         [HttpPut("{id}")]
 
-        public void Put([FromBody] C_Usernames info, int id)
+        public void Put([FromBody] C_Usernames c_user, int id)
         {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             
             try
             {
@@ -140,7 +141,7 @@ namespace PetApi.Controllers
                     if (rdr.HasRows)
                     {
                         rdr.Close();
-                        string sqlupdate = String.Format("Update C_Username set password = md5('{1}') WHERE c_username = '{0}'", info.userName,info.password);
+                        string sqlupdate = String.Format("Update C_Username set password = md5('{1}') WHERE c_username = '{0}'", c_user.userName,c_user.password);
                         MySqlCommand cmdup = new MySqlCommand(sqlupdate, conn);
                         cmdup.ExecuteNonQuery();
 
@@ -162,15 +163,35 @@ namespace PetApi.Controllers
 
             // POST api/<C-username Controller> this adds new customers 
             [HttpPost]
-            public void Post([FromBody] C_Usernames info)
+            public void Post([FromBody] C_Usernames c_user)
             {
-            MySqlConnection conn = new MySqlConnection(CONNSTR);
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
                 conn.Open();
 
-                string sql = String.Format("insert into C_userName value({0},'{1}',MD5('{2}'))", info.userID,info.userName,info.password);
+                string sql = String.Format("insert into C_userName value({0},'{1}',MD5('{2}'))", c_user.userID,c_user.userName,c_user.password);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
+                conn.Close();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+        }
+
+        [HttpPost("dir")]
+        public void PostDirectly(C_Usernames c_user)
+        {
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
+            try
+            {
+                Console.WriteLine("Connecting...");
+                conn.Open();
+
+                string sql = String.Format("insert into C_userName value({0},'{1}',MD5('{2}'))", c_user.userID, c_user.userName, c_user.password);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();
                 conn.Close();
@@ -182,13 +203,11 @@ namespace PetApi.Controllers
         }
 
 
-
-
         // DELETE api/<ItemsController>/5
         [HttpDelete("{C_id}")]
         public void Delete(int C_id)
         {
-                MySqlConnection conn = new MySqlConnection(CONNSTR);
+                MySqlConnection conn = new MySqlConnection(info.GetConnection());
                 try
                 {
                     Console.WriteLine("Connecting...");
