@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" />
-        <title>PetSupply +</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>PetSupply +</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
 <body>
 
     <div class="login-page">
@@ -17,10 +19,10 @@
               <p>Please enter your credentials to login.</p>
             </div>
           </div>
-          <form class="login-form">
-            <input type="text" placeholder="Email"/>
-            <input type="password" placeholder="Password"/>
-            <button><a href = "customer.html">login</a></button> <!-- used to link to go to homepage depending on customer/user not sure if we 
+          <form class="login-form" id="login-form" onsubmit="return false;">
+            <input id = "username" type="text" placeholder="Email" required/>
+            <input id = "pasword" type="password" placeholder="Password" required/>
+            <button onclick= "getLoginInfo();">Login</button> <!-- used to link to go to homepage depending on customer/user not sure if we 
             will have to create a java script to differentiate who goes where. I could make a employee login vs a customer log in and then reference
         it to two different pages... not sure have to check in with team.-->
             <p class="message">Not registered? <a href="signup.html">Create an account</a></p>

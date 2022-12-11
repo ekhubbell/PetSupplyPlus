@@ -6,11 +6,11 @@ function createAccount() {
         type: "POST",//this is like the functions we made, each one is either a "get","put","post",or "delete"
         dataType: "json",//this tells ajax that we want the data it returns in the form of JSON
         processData: "false",
-        headers:
-        {
-            "RequestVerificationToken": $('input:hidden[name="__RequestVerificationToken"]').val()
-        },
-        url: "https://localhost:7268/api/Customer/post",//this is where you put the request URL(currently, it is a bin I made using https://jsonbin.io/) 
+     
+        url: "https://localhost:7268/api/C_Usernames"
+        
+      
+        //this is where you put the request URL(currently, it is a bin I made using https://jsonbin.io/) 
         data: JSON.stringify({
             "": -10,
             "": data[0].value, //first name
@@ -24,11 +24,16 @@ function createAccount() {
             "": data[8].value
             
         }),
+       
         contentType: "application/json;charset=utf-8",
+        
         success: (data, textStatus, xhr) => { console.log(data); },//this is the function I want to call when the data is received
+       
         error: function (xhr, textStatus, errorThrown) {
-            console.log(':(');
-        }
+            console.log(':( testing');
+        },
+        dataType: "json",
+        contentType:"application/json"
     });
 }
 
