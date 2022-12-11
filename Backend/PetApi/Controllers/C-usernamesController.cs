@@ -29,7 +29,7 @@ namespace PetApi.Controllers
 
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
-                string sql = "SELECT * FROM C_Username union select * from E_Username order by userid +0 asc;";
+                string sql = "SELECT * FROM C_Username union select * from E_Username order by user_id +0 asc;";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -45,6 +45,7 @@ namespace PetApi.Controllers
 
             conn.Close();
             Console.WriteLine("Done.");
+
             return userNames;
         }
 
