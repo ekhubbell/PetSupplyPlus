@@ -1,4 +1,5 @@
 
+
 function getStates() {
     $.ajax({
         type: "GET",
@@ -11,7 +12,7 @@ function getStates() {
 
 function populateStateDropDown(result) {
     let stateList = JSON.parse(JSON.stringify(result));
-    let dropDown = document.getElementById("state");
+    let dropDown = document.getElementById("states");
     for (let i = 0; i < stateList.length; i++) {
         let opt = document.createElement("OPTION");
         opt.setAttribute("value", stateList[i].id);
