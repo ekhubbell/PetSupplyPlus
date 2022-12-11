@@ -83,7 +83,6 @@ namespace PetApi.Controllers
         public URL checks(string username, string password)
         {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
-            string link = "index.html";
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -95,7 +94,11 @@ namespace PetApi.Controllers
                 {
                     if (rdr.HasRows)
                     {
-                        link = "customer.html";
+                        rdr.Read();
+                        URL url = new URL("customer.html", "0", rdr[0].ToString());
+                        rdr.Close();
+                        conn.Close();
+                        return url;
                     }
                     rdr.Close();
                 }
@@ -105,7 +108,12 @@ namespace PetApi.Controllers
                 using (MySqlDataReader rdr1 = cmd1.ExecuteReader())
                 {
                     if (rdr1.HasRows) { 
-                        link = "employee.html"; }
+                        rdr1.Read();
+                        URL url = new URL("employee.html", "1", rdr1[0].ToString());
+                        rdr1.Close();
+                        conn.Close();
+                        return url;
+                    }
 
                     rdr1.Close();
                 }
@@ -119,9 +127,10 @@ namespace PetApi.Controllers
                 
             }
 
+
             conn.Close();
             Console.WriteLine("Done.");
-            return new URL(link);
+            return new URL("index.html", "", "");
         }
 
 

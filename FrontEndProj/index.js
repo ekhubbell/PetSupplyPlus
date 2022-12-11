@@ -30,7 +30,11 @@ function validUser(result) {
 
     let link = JSON.parse(JSON.stringify(result)); //
     console.log(link.link);
-    location.href = link.link;
+    let nextPage = link.link;
+    if (link.userID != "") {
+        nextPage += "?id=" + encodeURIComponent(link.userID);
+    }
+    location.href = nextPage;
 
 }
 

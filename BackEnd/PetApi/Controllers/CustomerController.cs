@@ -92,32 +92,37 @@ namespace PetApi.Controllers
             {
                 Console.WriteLine("Connecting...");
                 conn.Open();
-                if(id ==null)
+
+                if (id == null)
                 {
                     string sqlSelect = "select max(cust_id) FROM customer;";
                     MySqlCommand cmdSelect = new MySqlCommand(sqlSelect, conn);
                     MySqlDataReader rdr = cmdSelect.ExecuteReader();
                     rdr.Read();
                     id = Int32.Parse(rdr[0].ToString());
+
+                    rdr.Close();
+                    conn.Close();
                 }
                 id++;
-                
+                if (c_userCon == null)
+                {
+                    c_userCon = new C_usernamesController();
+                }
+                c_userCon.PostDirectly(new C_Usernames(id.ToString(), cust.email, cust.password));
+
                 if (stateCon == null)
                 {
                     stateCon = new StateController();
                 }
-
-                string sql = String.Format("insert into {0} values({1},'{2}','{3}','{4}','{5}',{6}, {7}, '{8}', '{9}');",tableName, id, cust.firstName, cust.lastName, cust.address, cust.city, cust.state_ID, cust.email, cust.phone);
+                conn.Open();
+                string sql = String.Format("insert into {0} values({1},'{2}','{3}','{4}','{5}',{6}, {7}, '{8}','{9}');",tableName, id, cust.firstName, cust.lastName, cust.address, cust.city, cust.state_ID,cust.zipcode, cust.email, cust.phone);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();
 
                 conn.Close();
 
-                if(c_userCon == null)
-                {
-                    c_userCon = new C_usernamesController();
-                }
-                c_userCon.PostDirectly(new C_Usernames(id.ToString(), cust.email, cust.password));
+                
             }
             catch (Exception e)
             {

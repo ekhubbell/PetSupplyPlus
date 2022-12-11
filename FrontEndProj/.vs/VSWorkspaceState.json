@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\OrderScripts",
     "\\SignUpScripts"
   ],
-  "SelectedNode": "\\SignUpScripts\\getStateDropDown.js",
+  "SelectedNode": "\\customer.html",
   "PreviewInSolutionExplorer": false
 }
