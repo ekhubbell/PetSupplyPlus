@@ -83,7 +83,7 @@ namespace PetApi.Controllers
 
 
         }
-        [HttpPost("post")]
+        [HttpPost]
         public void Post([FromBody] Customer cust)
         {
             Console.WriteLine("HELLO????");
@@ -107,7 +107,7 @@ namespace PetApi.Controllers
                     stateCon = new StateController();
                 }
 
-                string sql = String.Format("insert into {0} values({1},'{2}','{3}','{4}','{5}',{6}, {7}, '{8}', '{9}');",tableName, id, cust.firstName, cust.lastName, cust.address, cust.city, cust.state_ID, cust.email, cust.phone);
+                string sql = String.Format("insert into {0} values({1},'{2}','{3}','{4}','{5}',{6}, {7}, '{8}', '{9}');",tableName, id, cust.firstName, cust.lastName, cust.address, cust.city, cust.stateId, cust.email, cust.phone);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();
 
