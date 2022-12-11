@@ -9390,24 +9390,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\aerod\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
+      "projectUniqueName": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
       "projectName": "PetApi",
-      "projectPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\obj\\",
+      "projectPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
+      "packagesPath": "C:\\Users\\aerod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\aerod\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9415,7 +9410,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

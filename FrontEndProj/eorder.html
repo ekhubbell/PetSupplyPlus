@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Employee Homepage</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="CEstyle.css">
-    
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="SignUpScripts/getEOrder.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Employee Homepage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="CEstyle.css">
+
+</head>
 <body>
  <!-- Navbar Start -->
  <div class="w3-bar w3-border w3-green">
@@ -28,51 +30,24 @@
     <th style="width:25%;">Customer Name</th>
     <th style="width:25%">Sub Total</th>
     <th style="width:25%">Order Status</th>
-
+ 
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
+      <!-- <td>Alfreds Futterkiste</td>
     <td>Germany</td>
     <td>4.99</td>
-    <td>
-      <select id="mylist" onchange="myFunctionp()" class='form-control'>
-        <option>RECIEVED</option>
-        <option>IN PROGRESS</option>
-        <option>SHIPPED</option>
-        </select>
-    </td>
+     <td>
+         <select id="mylist" onchange="myFunctionp()" class='form-control'>
 
+             <option>cat</option>
+             <option>dog</option>
 
-  </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
-  </tr>
+         </select>
+     </td>-->
+  </tr> 
+ 
 </table>
+    <script> getOrderStatus();</script>
 <div class="w3-bar">
   <a href="#" class="w3-button">«</a>
   <a href="#" class="w3-button w3-green">1</a>

@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Employee Homepage</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="CEstyle.css">
-    
-    </head>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="SignUpScripts/getEItems.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Employee Homepage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="CEstyle.css">
+
+</head>
 <body>
  <!-- Navbar Start -->
  <div class="w3-bar w3-border w3-green">
@@ -24,81 +26,81 @@
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in a name">
 
 <table id="myTable">
-  <tr class="header">
-    <th style="width:25%;">Item</th>
-    <th style="width:25%;">Pet Type</th>
-    <th style="width:25%">Price</th>
-    <th style="width:25%">QTY</th>
+    <tr class="header">
+        <th style="width:25%;">Item</th>
+        <th style="width:25%;">Pet Type</th>
+        <th style="width:25%">Price</th>
+        <th style="width:25%">QTY</th>
 
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
+    </tr>
+    <!-- <tr>
+       <td>Alfreds Futterkiste</td>
+       <td>Germany</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="" min="0" class="quantity-field">
+       </td>
 
 
-  </tr>
-  <tr>
-    <td>Berglunds snabbkop</td>
-    <td>Sweden</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>UK</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>Koniglich Essen</td>
-    <td>Germany</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Canada</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Italy</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>UK</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
-  <tr>
-    <td>Paris specialites</td>
-    <td>France</td>
-    <td>4.99</td>
-    <td>
-      <input type="number" value="5" min="0" class="quantity-field">
-    </td>
-  </tr>
+     </tr>
+     <tr>
+       <td>Berglunds snabbkop</td>
+       <td>Sweden</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>Island Trading</td>
+       <td>UK</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>Koniglich Essen</td>
+       <td>Germany</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>Laughing Bacchus Winecellars</td>
+       <td>Canada</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>Magazzini Alimentari Riuniti</td>
+       <td>Italy</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>North/South</td>
+       <td>UK</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr>
+     <tr>
+       <td>Paris specialites</td>
+       <td>France</td>
+       <td>4.99</td>
+       <td>
+         <input type="number" value="5" min="0" class="quantity-field">
+       </td>
+     </tr> -->
 </table>
-
+<script>getEItems();</script>
 <div class="w3-bar">
   <a href="#" class="w3-button">«</a>
   <a href="#" class="w3-button w3-green">1</a>
