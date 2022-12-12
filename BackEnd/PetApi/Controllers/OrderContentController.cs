@@ -59,8 +59,8 @@ namespace PetApi.Controllers
 
         //GET api/<OrderContentController>/5
 
-        [HttpGet("{orderID}/{itemID}")]
-        public OrderContent Get(int orderID, int itemID)
+        [HttpGet("{orderID}")]
+        public OrderContent Get(int orderID)
         {
             OrderContent oc = new OrderContent();
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
@@ -69,7 +69,7 @@ namespace PetApi.Controllers
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
 
-                string sql = String.Format("SELECT * FROM OrderContent WHERE {0} = {1} AND {2} ={3}", "itemId", itemID, "orderID", orderID);
+                string sql = String.Format("SELECT * FROM OrderContent WHERE {0} = {1} ", "orderID", orderID);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())

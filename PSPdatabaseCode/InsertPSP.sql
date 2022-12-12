@@ -1,5 +1,5 @@
-insert into C_Username values(1, 'QueenB@gmail.com','password');
-insert into E_Username values('A1','hub.e@petsupply.com', 'password'); 
+insert into C_Username values(1, 'QueenB@gmail.com',MD5('password'));
+insert into E_Username values('A1','hub.e@petsupply.com', MD5('password')); 
 
 ####################Customer Inserts##################
 insert into customer values(1,'Beyonce','Knowles','45 Lemonade Road','Hollywoood',4,01970,'QueenB@gmail.com','2223334444');
