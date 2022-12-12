@@ -27,7 +27,7 @@
               <input name="city" type="text" placeholder="city" />
 
               <label for="state_ID">State</label>
-              <select id="state" name="state_">
+              <select id="states" name="state_s">
               </select>
               <script>getStates();</script>
               <br />
@@ -38,8 +38,10 @@
               <input type="tel" id="phone" name="phone" placeholder="Phone Number"
                      pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
               <input name="password" type="password" placeholder="Password" />
+              
               <br />
-              <button onclick="createAccount()">Register</button>
+
+              <button onclick="createAccount()"> Register </button>
               <!-- used to link to go to homepage depending on customer/user not sure if we
         will have to create a java script to differentiate who goes where. I could make a employee login vs a customer log in and then reference
     it to two different pages... not sure have to check in with team.-->

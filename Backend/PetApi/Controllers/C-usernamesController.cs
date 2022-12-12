@@ -29,7 +29,7 @@ namespace PetApi.Controllers
 
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
-                string sql = "SELECT * FROM C_Username union select * from E_Username order by userid +0 asc;";
+                string sql = "SELECT * FROM C_Username union select * from E_Username order by user_id +0 asc;";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -80,7 +80,7 @@ namespace PetApi.Controllers
             return login;
         }
         [HttpGet("{username}/log")]
-        public string checks(string username, string password)
+        public URL checks(string username, string password)
         {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
@@ -88,23 +88,36 @@ namespace PetApi.Controllers
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
 
-                string sql = "SELECT * FROM C_Username WHERE c_username = '" + username + "' and password = MD5('" + password + "');";
+                string sql = "SELECT * FROM C_Username WHERE username = '" + username + "' and password = MD5('" + password + "');";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 using (MySqlDataReader rdr = cmd.ExecuteReader())
                 {
                     if (rdr.HasRows)
                     {
-                        return "URL USER LOGIN";
+                        rdr.Read();
+                        URL url = new URL("customer.html", "0", rdr[0].ToString());
+                        rdr.Close();
+                        conn.Close();
+                        return url;
                     }
+                    rdr.Close();
                 }
                 
-                string sql1 = "SELECT * FROM E_Username WHERE username = '" + username + "' and user_password = MD5('" + password + "');";
+                string sql1 = "SELECT * FROM E_Username WHERE username = '" + username + "' and password = MD5('" + password + "');";
                 MySqlCommand cmd1 = new MySqlCommand(sql1, conn);
                 using (MySqlDataReader rdr1 = cmd1.ExecuteReader())
                 {
-                    if (rdr1.HasRows) { return "URL employee LOGIN"; }
-                    else { return "Username or password is incorrect."; }
+                    if (rdr1.HasRows) { 
+                        rdr1.Read();
+                        URL url = new URL("employee.html", "1", rdr1[0].ToString());
+                        rdr1.Close();
+                        conn.Close();
+                        return url;
+                    }
+
+                    rdr1.Close();
                 }
+                
                 
                 
             }
@@ -114,9 +127,10 @@ namespace PetApi.Controllers
                 
             }
 
+
             conn.Close();
             Console.WriteLine("Done.");
-            return "error - possibly redirect to url for login error";
+            return new URL("index.html", "", "");
         }
 
 

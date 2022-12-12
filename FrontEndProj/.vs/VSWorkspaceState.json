@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\OrderScripts",
+    "\\SignUpScripts"
   ],
+  "SelectedNode": "\\customer.html",
   "PreviewInSolutionExplorer": false
 }
