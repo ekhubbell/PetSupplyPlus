@@ -5,8 +5,6 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetApi", "PetApi.csproj", "{BEEFEF4B-38AD-4724-B637-25D1D9A99440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetFrontEnd", "..\PetFrontEnd\PetFrontEnd.csproj", "{639709FE-F2FD-4293-A75C-138A9169364D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{BEEFEF4B-38AD-4724-B637-25D1D9A99440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEEFEF4B-38AD-4724-B637-25D1D9A99440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEEFEF4B-38AD-4724-B637-25D1D9A99440}.Release|Any CPU.Build.0 = Release|Any CPU
-		{639709FE-F2FD-4293-A75C-138A9169364D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{639709FE-F2FD-4293-A75C-138A9169364D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{639709FE-F2FD-4293-A75C-138A9169364D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{639709FE-F2FD-4293-A75C-138A9169364D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
