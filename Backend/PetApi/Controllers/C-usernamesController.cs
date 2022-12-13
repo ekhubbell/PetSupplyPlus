@@ -45,6 +45,7 @@ namespace PetApi.Controllers
 
             conn.Close();
             Console.WriteLine("Done.");
+
             return userNames;
         }
 

@@ -9390,32 +9390,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/billyreilly/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
+      "projectUniqueName": "/Users/billyreilly/Desktop/PetSupplyPlus/BackEnd/PetApi/PetApi.csproj",
       "projectName": "PetApi",
-      "projectPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\PetApi.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetApi\\obj\\",
+      "projectPath": "/Users/billyreilly/Desktop/PetSupplyPlus/BackEnd/PetApi/PetApi.csproj",
+      "packagesPath": "/Users/billyreilly/.nuget/packages/",
+      "outputPath": "/Users/billyreilly/Desktop/PetSupplyPlus/BackEnd/PetApi/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/billyreilly/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9466,7 +9458,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

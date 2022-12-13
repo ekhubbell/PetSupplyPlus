@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="CEstyle.css"/>
-        <link rel="js" href="filter.js"/>
-        <script src = "filter.js"></script>
-        <title>Homepage</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <script src="carryinfo.js"></script>
+<head>
+    <script src="customer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="CEstyle.css">
+    <script src="filter.js"></script>
+    <title>Homepage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    </head>
-<body onload="ParseURL();">
+</head>
+<body onload="getCustomer();">
  <!-- Navbar Start -->
  <div class="w3-bar w3-border w3-green">
-    <a href="javascript:NextPage('customer.html')" class="w3-bar-item w3-button">Home</a>
-    <a href="javascript:NextPage('cart.html')" class="w3-bar-item w3-button">Cart</a>
-    <a href="javascript:NextPage('order.html')" class="w3-bar-item w3-button">Orders</a>
+    <a href="customer.html" class="w3-bar-item w3-button">Home</a>
+    <a href="cart.html" class="w3-bar-item w3-button">Cart</a>
+    <a href="order.html" class="w3-bar-item w3-button">Orders</a>
     <a href="index.html" class="w3-bar-item w3-button">Logout</a>
  </div>
 <!--  -->
@@ -26,109 +26,123 @@
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in a items">
 
+<h2>Sort By Pet Type:</h2>
+<select id="mylist" onchange="myFunctionp()" class='form-control'>
+<option>Cat</option>
+<option>Dog</option>
+<option>Puppy</option>
+</select>
+
 <table id="myTable">
-  <tr class="header">
-    <th style="width:25%;" col-index = 1>Item</th>
-    <th style="width:25%;" col-index = 2>Pet Type</th>
-      <select class = "table-filter">
-        <option value ="all"></option>
-      </select>
-    <th style="width:25%" col-index = 3>Price</th>
-    <th style="width:25%" col-index = 4>Cart</th>
+  <thead>
+      <tr class="header">
+          <th col-index=1>Item</th>
+          <th col-index=2>
+              Pet Type
 
-  </tr>
-  <tr>
-    <td>Cat toy mouse</td>
-    <td>Cat</td>
-    <td>0.99</td>
-    <td>
-          <div class="quantity">
-            <input type="number" value="1" min="0" class="quantity-field">
-          </div>
-          <div class="add">
-            <button>Add</button>
-          </div>
-    </td>
+              <select id= class="table-filter" aria-label="state" onchange="filter_rows()">
+                  <option value="all"></option>
+              </select>
+          </th>
 
+          <th col-index=3>Price</th>
+          <th col-index=4>Cart</th>
 
-  </tr>
+      </tr>
+  </thead>
+  
+  <tbody>
+    <tr>
+      <td>Cat toy mouse</td>
+      <td>Cat</td>
+      <td>0.99</td>
+      <!--- <td>
+            <div class="quantity">
+              <input type="number" value="0" min="0" class="quantity-field">
+            </div>
+            <div class="add">
+              <button>Add</button>
+            </div>
+      </td> -->
+
+    </tr>
   <tr>
     <td>Dog wet food duck can 5oz</td>
     <td>Dog</td>
     <td>3.00</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Cat wet food variety can</td>
     <td>Cat</td>
     <td>1.24</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Hamster paper bedding</td>
     <td>Hamster</td>
     <td>4.99</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Fish pebble food 3 pack</td>
     <td>Fish</td>
     <td>6.99</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Hamster small cage</td>
     <td>Hamster</td>
     <td>15.99</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Cat bed</td>
     <td>Cat</td>
     <td>4.99</td>
-    <td>
+    <!--- <td>
           <div class="quantity">
             <input type="number" value="0" min="0" class="quantity-field">
           </div>
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> -->
   </tr>
   <tr>
     <td>Dog dry chicken treats 5pack</td>
@@ -141,8 +155,9 @@
           <div class="add">
             <button>Add</button>
           </div>
-    </td>
+    </td> 
   </tr>
+</tbody>
 </table>
 <div class="w3-bar">
   <a href="#" class="w3-button">«</a>
@@ -182,6 +197,26 @@ function myFunction() {
   }
 }
 </script>
+
+<script>
+  function myFunctionp() {
+    var input, filter, table, tr, td, i;
+    input = document.getElementById("mylist");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }       
+    }
+  }
+  </script>
 
 
 </body>
