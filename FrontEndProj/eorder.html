@@ -1,78 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <title>Employee Homepage</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <link rel="stylesheet" href="CEstyle.css">
-    
-    </head>
-<body>
- <!-- Navbar Start -->
- <div class="w3-bar w3-border w3-green">
-    <a href="employee.html" class="w3-bar-item w3-button">Home</a>
-    <a href="eorder.html" class="w3-bar-item w3-button">Orders</a>
-    <a href="index.html" class="w3-bar-item w3-button">Logout</a>
- </div>
-<!-- Navbar End -->
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="SignUpScripts/getEOrder.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <title>Employee Homepage</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="CEstyle.css">
 
-<h2>PetSupply+ Orders</h2>
+</head>
+<body onload=" getOrderStatus();">
+    <!-- Navbar Start -->
+    <div class="w3-bar w3-border w3-green">
+        <a href="employee.html" class="w3-bar-item w3-button">Home</a>
+        <a href="eorder.html" class="w3-bar-item w3-button">Orders</a>
+        <a href="index.html" class="w3-bar-item w3-button">Logout</a>
+    </div>
+    <!-- Navbar End -->
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in a name">
+    <h2>PetSupply+ Orders</h2>
 
-<table id="myTable">
-  <tr class="header">
-    <th style="width:25%;">Order Number</th>
-    <th style="width:25%;">Customer Name</th>
-    <th style="width:25%">Sub Total</th>
-    <th style="width:25%">Order Status</th>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for items.." title="Type in a name">
 
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Germany</td>
-    <td>4.99</td>
-    <td>
-      <select id="orderStatus" onchange="myFunctionp()" class='form-control'>
-        <option>RECIEVED</option>
-        <option>IN PROGRESS</option>
-        <option>SHIPPED</option>
-        </select>
-    </td>
+    <table id="myTable">
+        <tr class="header">
+            <th style="width:25%;">Order Number</th>
+            <th style="width:25%;">Customer Name</th>
+            <th style="width:25%">Sub Total</th>
+            <th style="width:25%">Order Status</th>
 
+        </tr>
+        <tr>
+            <!-- <td>Alfreds Futterkiste</td>
+            <td>Germany</td>
+            <td>4.99</td>
+             <td>
+                 <select id="mylist" onchange="myFunctionp()" class='form-control'>
 
- 
-</table>
-<div class="w3-bar">
-  <a href="#" class="w3-button">«</a>
-  <a href="#" class="w3-button w3-green">1</a>
-  <a href="#" class="w3-button">2</a>
-  <a href="#" class="w3-button">3</a>
-  <a href="#" class="w3-button">4</a>
-  <a href="#" class="w3-button">»</a>
-</div>
-<script>
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
-      }
-    }       
-  }
-}
-</script>
+                     <option>cat</option>
+                     <option>dog</option>
+
+                 </select>
+             </td>-->
+        </tr>
+
+    </table>
+    <!--<script> getOrderStatus();</script>-->
+    <div class="w3-bar">
+        <a href="#" class="w3-button">«</a>
+        <a href="#" class="w3-button w3-green">1</a>
+        <a href="#" class="w3-button">2</a>
+        <a href="#" class="w3-button">3</a>
+        <a href="#" class="w3-button">4</a>
+        <a href="#" class="w3-button">»</a>
+    </div>
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
 
 
 
