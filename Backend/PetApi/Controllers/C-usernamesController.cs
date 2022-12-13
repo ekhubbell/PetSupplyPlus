@@ -61,7 +61,7 @@ namespace PetApi.Controllers
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
 
-                string sql = "SELECT * FROM C_Username WHERE C_Username = '" + username+"'";
+                string sql = "SELECT * FROM C_Username WHERE C_Username = '" + username + "'";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -83,7 +83,6 @@ namespace PetApi.Controllers
         public URL checks(string username, string password)
         {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
-            string link = "index.html";
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -95,33 +94,44 @@ namespace PetApi.Controllers
                 {
                     if (rdr.HasRows)
                     {
-                        link = "customer.html";
+                        rdr.Read();
+                        URL url = new URL("customer.html", "0", rdr[0].ToString());
+                        rdr.Close();
+                        conn.Close();
+                        return url;
                     }
                     rdr.Close();
                 }
-                
+
                 string sql1 = "SELECT * FROM E_Username WHERE username = '" + username + "' and password = MD5('" + password + "');";
                 MySqlCommand cmd1 = new MySqlCommand(sql1, conn);
                 using (MySqlDataReader rdr1 = cmd1.ExecuteReader())
                 {
-                    if (rdr1.HasRows) { 
-                        link = "employee.html"; }
+                    if (rdr1.HasRows)
+                    {
+                        rdr1.Read();
+                        URL url = new URL("employee.html", "1", rdr1[0].ToString());
+                        rdr1.Close();
+                        conn.Close();
+                        return url;
+                    }
 
                     rdr1.Close();
                 }
-                
-                
-                
+
+
+
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
-                
+
             }
+
 
             conn.Close();
             Console.WriteLine("Done.");
-            return new URL(link);
+            return new URL("index.html", "", "");
         }
 
 
@@ -132,7 +142,7 @@ namespace PetApi.Controllers
         public void Put([FromBody] C_Usernames c_user, int id)
         {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
-            
+
             try
             {
                 Console.WriteLine("Connecting to database...");
@@ -146,12 +156,13 @@ namespace PetApi.Controllers
                     if (rdr.HasRows)
                     {
                         rdr.Close();
-                        string sqlupdate = String.Format("Update C_Username set password = md5('{1}') WHERE c_username = '{0}'", c_user.userName,c_user.password);
+                        string sqlupdate = String.Format("Update C_Username set password = md5('{1}') WHERE c_username = '{0}'", c_user.userName, c_user.password);
                         MySqlCommand cmdup = new MySqlCommand(sqlupdate, conn);
                         cmdup.ExecuteNonQuery();
 
                     }
-                    else {
+                    else
+                    {
                         Console.WriteLine(sql);
                     }
                 }
@@ -166,17 +177,17 @@ namespace PetApi.Controllers
 
 
 
-            // POST api/<C-username Controller> this adds new customers 
-            [HttpPost]
-            public void Post([FromBody] C_Usernames c_user)
-            {
+        // POST api/<C-username Controller> this adds new customers 
+        [HttpPost]
+        public void Post([FromBody] C_Usernames c_user)
+        {
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting...");
                 conn.Open();
 
-                string sql = String.Format("insert into C_userName value({0},'{1}',MD5('{2}'))", c_user.userID,c_user.userName,c_user.password);
+                string sql = String.Format("insert into C_userName value({0},'{1}',MD5('{2}'))", c_user.userID, c_user.userName, c_user.password);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.ExecuteNonQuery();
                 conn.Close();
@@ -212,22 +223,22 @@ namespace PetApi.Controllers
         [HttpDelete("{C_id}")]
         public void Delete(int C_id)
         {
-                MySqlConnection conn = new MySqlConnection(info.GetConnection());
-                try
-                {
-                    Console.WriteLine("Connecting...");
-                    conn.Open();
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
+            try
+            {
+                Console.WriteLine("Connecting...");
+                conn.Open();
 
-                    string sql = String.Format("delete from C_userName where userId = {0}", C_id);
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
-                    cmd.ExecuteNonQuery();
+                string sql = String.Format("delete from C_userName where userId = {0}", C_id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.ExecuteNonQuery();
                 conn.Close();
-                }
-                catch (Exception e)
-                {
-                    Console.WriteLine(e.ToString());
-                }
-            
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+
         }
 
 

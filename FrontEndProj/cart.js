@@ -4,7 +4,7 @@
 
 function getURL() {
     console.log(1);
-    let data = document.getElementById("orderID").elements; //this is goigg to be the data passed from the login/userID for orders. 
+    let data = document.getElementById("orderID").elements; //this is going to be the data passed from the login/userID for orders. 
 
     let url = "https://localhost:7268/api/https://localhost:7268/api/OrderContent/" + data[0].value;
     console.log(url);

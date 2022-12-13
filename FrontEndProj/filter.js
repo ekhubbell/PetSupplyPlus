@@ -8,7 +8,7 @@ function getUniqueValuesFromColumn() {
     allFilters.forEach ((filter_i) => {
         col_index = filter_i.parentElement.getAttribute("col-index");
         //alert(col_index)
-        const rows = document.querySelectorAll("#myTable >tbody >tr" )
+        const rows = document.querySelectorAll("#myTables >tbody >tr" ) //note this is call mytable from cart. 
          //10:57 may have to add tbody  to the table or change it to #myTable > tr as there is currently no tbody
         rows.forEach((row) => {
             cell_value = row.querySelector("td:nth-child("+col_index + ")").innerHTML;

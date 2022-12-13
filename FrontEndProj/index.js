@@ -1,13 +1,12 @@
 
 
- function getURL()
- {
-     console.log(1);
-     let data = document.getElementById("login-form").elements;
-     
-     let url = "https://localhost:7268/api/C_usernames/" + data[0].value+ "/log?password=" + data[1].value;
-     console.log(url);
-     return url;
+function getURL() {
+    console.log(1);
+    let data = document.getElementById("login-form").elements;
+
+    let url = "https://localhost:7268/api/C_usernames/" + data[0].value + "/log?password=" + data[1].value;
+    console.log(url);
+    return url;
 }
 
 
@@ -30,7 +29,11 @@ function validUser(result) {
 
     let link = JSON.parse(JSON.stringify(result)); //
     console.log(link.link);
-    location.href = link.link;
+    let nextPage = link.link;
+    if (link.userID != "") {
+        nextPage += "?id=" + encodeURIComponent(link.userID);
+    }
+    location.href = nextPage;
 
 }
 
