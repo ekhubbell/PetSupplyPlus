@@ -6,7 +6,7 @@ namespace PetApi.Helpers
     public class GatherInfo
     {
 
-        private const string CONNSTR = "server=localhost;user=root;database=petsupplyplus;port=3306;password=root;"; //Need to update password to whatever we are using 
+        private const string CONNSTR = "server=localhost;user=root;database=petsupplyplus;port=3306;password=Cosplayer2!;"; //Need to update password to whatever we are using 
         private const string DBNAME = "petsupplyplus";
         public TableData getKeys(string table)
         {
