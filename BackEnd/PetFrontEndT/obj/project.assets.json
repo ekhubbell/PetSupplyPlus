@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.AspNet.Cors/5.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.Cors/5.2.9": {
+      "sha512": "LUjfvaOu0q9bz523CYmIE06Q9EttrpKuRLm3T83spF6oX+dYiFlLJFLm4RveGKq/puRJC5KTnXdbWGLqM783jA==",
+      "type": "package",
+      "path": "microsoft.aspnet.cors/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Cors.dll",
+        "microsoft.aspnet.cors.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.cors.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.AspNet.Cors >= 5.2.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aerod\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
+      "projectName": "PetFrontEndT",
+      "projectPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
+      "packagesPath": "C:\\Users\\aerod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aerod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": {
+            "target": "Package",
+            "version": "[5.2.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Cors 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Cors",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

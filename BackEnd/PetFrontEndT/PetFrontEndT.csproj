@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\.vs\ProjectSettings.json" />
+    <Content Include="wwwroot\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\.vs\FrontEndProj\config\applicationhost.config" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\00e32479-7a80-4e89-96bd-fe079e2840ef.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\388b3193-02f5-4084-b6ea-a2fd1eea86e5.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\392e1aa3-d1c1-40b5-9ed3-a9e37ccace90.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\580db25b-b233-4480-9781-cfec0b2585c2.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\6476cc8f-f33f-4098-be3f-31a52d39b0b6.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\8177b745-6b98-40b0-bfef-931916ef78ea.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\a2ee1846-85f1-4b60-9b3a-2c5261f0016b.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\ab0192e4-5720-489d-ab68-7ecbddbab707.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\df419827-a30c-48fa-af3d-0a16a9e8fa3b.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\eaa4a16e-68af-4616-803f-09cca0c85c93.vsidx" />
+    <None Include="wwwroot\.vs\FrontEndProj\FileContentIndex\read.lock" />
+    <None Include="wwwroot\.vs\FrontEndProj\v17\.suo" />
+    <None Include="wwwroot\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\.vs\FrontEndProj\FileContentIndex\merges\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Cors" Version="5.2.9" />
+  </ItemGroup>
+
+</Project>

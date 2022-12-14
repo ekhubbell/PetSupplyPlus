@@ -10,6 +10,10 @@ internal class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddCors(c =>
+        {
+            c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+        }); // added from what professor told us to add
 
         var app = builder.Build();
 
@@ -19,7 +23,7 @@ internal class Program
             app.UseSwagger();
             app.UseSwaggerUI();
         }
-
+        app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); //added from prof notes
         app.UseHttpsRedirection();
 
         app.UseAuthorization();
