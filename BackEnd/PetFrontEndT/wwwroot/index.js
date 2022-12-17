@@ -2,7 +2,6 @@
 
  function getURL()
  {
-     console.log(1);
      let data = document.getElementById("login-form").elements;
      
      let url = "https://localhost:7268/api/C_usernames/" + data[0].value+ "/log?password=" + data[1].value;

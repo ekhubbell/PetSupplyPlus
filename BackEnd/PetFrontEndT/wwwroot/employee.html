@@ -9,14 +9,14 @@
     <title>Employee Homepage</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link rel="stylesheet" href="CEstyle.css">
-
+    <script>carryinfo.js</script>
 </head>
-<body>
+<body onload="ParseURL();">
  <!-- Navbar Start -->
  <div class="w3-bar w3-border w3-green">
-    <a href="employee.html" class="w3-bar-item w3-button">Home</a>
-    <a href="eorder.html" class="w3-bar-item w3-button">Orders</a>
-    <a href="index.html" class="w3-bar-item w3-button">Logout</a>
+    <a href="javascript:NextPage('employee.html');'" class="w3-bar-item w3-button">Home</a>
+    <a href="javascript:NextPage('eorder.html');'" class="w3-bar-item w3-button">Orders</a>
+    <a href="index.html'" class="w3-bar-item w3-button">Logout</a>
 
  </div>
 <!-- Navbar End -->
@@ -133,5 +133,5 @@ function myFunction() {
 </script>
 
 
-</body>
+</body="">
 </html>
