@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KACBVVds1kss5Qhh/0gN0C8WPmW1J9LTjFKUK7jLCoQ=",
+  "Hash": "DsigOjGDJ6ZN8nDk9yFXHFws9bcr30QEGkMquRIQH2U=",
   "Source": "PetFrontEndT",
   "BasePath": "_content/PetFrontEndT",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PetFrontEndT\\wwwroot",
       "Source": "PetFrontEndT",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetFrontEndT.styles.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetFrontEndT.styles.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "PetFrontEndT.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetFrontEndT.styles.css"
+      "OriginalItemSpec": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetFrontEndT.styles.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetFrontEndT.bundle.scp.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetFrontEndT.bundle.scp.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "PetFrontEndT.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetFrontEndT.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetFrontEndT.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.DS_Store",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.DS_Store",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.vs\\ProjectSettings.json",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.vs\\ProjectSettings.json",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": ".vs/ProjectSettings.json",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\.vs\\ProjectSettings.json"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.vs\\VSWorkspaceState.json",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\.vs\\VSWorkspaceState.json",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": ".vs/VSWorkspaceState.json",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\.vs\\VSWorkspaceState.json"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\carryinfo.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\carryinfo.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "carryinfo.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\carryinfo.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cart.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cart.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "cart.html",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\cart.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cart.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cart.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "cart.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\cart.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cartstyle.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cartstyle.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "cartstyle.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\cartstyle.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\CEstyle.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\CEstyle.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "CEstyle.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\CEstyle.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\css\\site.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cstyle.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\cstyle.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "cstyle.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\cstyle.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\customer.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\customer.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "customer.html",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\customer.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\customer.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\customer.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "customer.js",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\customer.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\employee.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\employee.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "employee.html",
       "AssetKind": "All",
@@ -272,10 +272,27 @@
       "OriginalItemSpec": "wwwroot\\employee.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\eorder.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\EOPut\\PutEorder.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "BasePath": "_content/PetFrontEndT",
+      "RelativePath": "EOPut/PutEorder.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EOPut\\PutEorder.js"
+    },
+    {
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\eorder.html",
+      "SourceId": "PetFrontEndT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "eorder.html",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\eorder.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\favicon.ico",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\filter.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\filter.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "filter.js",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\filter.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\index.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\index.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\index.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "index.js",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\index.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\jquery-3.6.1.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\jquery-3.6.1.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "jquery-3.6.1.js",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\jquery-3.6.1.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\js\\site.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -425,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -442,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -459,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -476,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -493,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -510,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -544,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -561,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -578,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -595,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -612,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -629,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -646,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -680,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -697,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -714,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -731,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -748,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -765,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -782,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -799,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -816,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -833,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -850,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -901,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -918,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -935,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -952,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -986,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1003,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1020,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1037,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\order.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\order.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "order.html",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\order.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\OrderScripts\\Orders.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\OrderScripts\\Orders.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "OrderScripts/Orders.js",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\OrderScripts\\Orders.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\ostyle.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\ostyle.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "ostyle.css",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\ostyle.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\signup.html",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\signup.html",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "signup.html",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\signup.html"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\createAccount.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\createAccount.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "SignUpScripts/createAccount.js",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\SignUpScripts\\createAccount.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getEItems.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getEItems.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "SignUpScripts/getEItems.js",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\SignUpScripts\\getEItems.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getEOrder.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getEOrder.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "SignUpScripts/getEOrder.js",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\SignUpScripts\\getEOrder.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getStateDropDown.js",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\SignUpScripts\\getStateDropDown.js",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "SignUpScripts/getStateDropDown.js",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\SignUpScripts\\getStateDropDown.js"
     },
     {
-      "Identity": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\style.css",
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\style.css",
       "SourceId": "PetFrontEndT",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
       "BasePath": "_content/PetFrontEndT",
       "RelativePath": "style.css",
       "AssetKind": "All",
