@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dMGeFOsCJ19VzRng0oLLZF3QjRhefmbvjNzmpfSA6TI=",
+  "Hash": "DsigOjGDJ6ZN8nDk9yFXHFws9bcr30QEGkMquRIQH2U=",
   "Source": "PetFrontEndT",
   "BasePath": "_content/PetFrontEndT",
   "Mode": "Default",
@@ -270,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\employee.html"
+    },
+    {
+      "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\EOPut\\PutEorder.js",
+      "SourceId": "PetFrontEndT",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\",
+      "BasePath": "_content/PetFrontEndT",
+      "RelativePath": "EOPut/PutEorder.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\EOPut\\PutEorder.js"
     },
     {
       "Identity": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\wwwroot\\eorder.html",

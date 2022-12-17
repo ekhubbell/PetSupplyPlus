@@ -23,9 +23,6 @@ function populateOStatusDropDown(result) {
         let snum = row.insertCell(2);
         snum.innerHTML = items.price
         let qtynum = row.insertCell(3); //
-        //qtynum.innerHTML = items.quantity
-        //let f = document.createElement("FORM");
-        //let s = document.createElement("SELECT");
         let opt = document.createElement("INPUT");
         let text = document.createTextNode(items.quantity);
         opt.setAttribute("type", "number");
@@ -54,7 +51,8 @@ function populateOStatusDropDown(result) {
 
     }
    
-    }
+}
+
 
 
 function dang(x, y, error) {
@@ -62,3 +60,27 @@ function dang(x, y, error) {
 }
 
 
+//post function???
+//below is a template 
+
+function updateProgress() {
+    console.log("1");
+    let data = $(document.input["myTable"]).serializeArray();
+    var data2p =
+    {
+        "name": data[0].value,
+        "petType": data[1].value,
+        "price": data[2].value,
+        "quantity": data[3].value
+    };
+
+    $.ajax({
+        type: "POST",
+        dataType: "json",
+        contentType: 'application/json; charset=utf-8',
+        crossDomain: true, 
+        url: "https://localhost:7268/api/Items?searchBy=noValue&searchWord=noValue",
+        data: JSON.stringify(data2p),
+        success: updateProgress() 
+    });
+};
