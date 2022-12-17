@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eL+ZZ71/vP8pmoyUAoAn+Y1LyOAEAvkUqR586CVJ9RcYCsWaZW4KlpFfcd6nXxCbCqB02rG2iv8xkDyPpyUbFQ==",
+  "dgSpecHash": "eYh7VwP+3iSGcFUhB3iMGqfeF8rbfVXWkLf33LGehpGUL0cTx+ooIJFzqbE2LPYcz8gZFdsvnrV3ixkZajPXwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\aerod\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512"
   ],
   "logs": [
     {

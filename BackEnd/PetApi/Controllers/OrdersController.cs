@@ -91,11 +91,69 @@ namespace PetApi.Controllers
         }
 
 
+        [HttpGet("Customer/{id}")]
+        public List<Orders> GetCustomerOrders(int id)
+        {
+            List<Orders> orders = new List<Orders>();
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
+            try
+            {
+                Console.WriteLine("Connecting to database...");
+                conn.Open();
 
+                string sql = String.Format("SELECT * FROM Orders WHERE {0} = {1}", "Cust_id", id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
 
+                    orders.Add(new Orders(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString()));
+                }
+                rdr.Close();
 
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            conn.Close();
+            Console.WriteLine("Done.");
+            return orders;
+        }
 
-// POST api/<OrderContentController>
+        [HttpGet("Customer/cart/{id}")]
+        public List<CartItem> GetCustomerCart(int id)
+        {
+            string custID = id.ToString();
+            List<CartItem> items = new List<CartItem>();
+            MySqlConnection conn = new MySqlConnection(info.GetConnection());
+            try
+            {
+                Console.WriteLine("Connecting to database...");
+                conn.Open();
+
+                string sql = String.Format("SELECT orders.orderID, items.itemID, ordercontent.quantity, items.price, items.item_name,items.description,ordercontent.price  FROM Orders INNER JOIN ordercontent ON orders.orderID=ordercontent.orderID INNER JOIN items ON ordercontent.itemID = items.itemID WHERE Cust_id = {0} AND paid != 'paid'", id);
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+
+                    items.Add(new CartItem(custID, rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString(), rdr[4].ToString(), rdr[5].ToString(), rdr[6].ToString()));
+                }
+                rdr.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+            conn.Close();
+            Console.WriteLine("Done.");
+
+            return items;
+        }
+
+        // POST api/<OrderContentController>
 
         [HttpPost]
         public void Post([FromBody] Orders order)

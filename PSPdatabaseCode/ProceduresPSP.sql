@@ -15,4 +15,4 @@ drop function if exists TotalCosts;
 		return (total);
 		end;
 // Delimiter ;
-select TotalCosts(2);
+

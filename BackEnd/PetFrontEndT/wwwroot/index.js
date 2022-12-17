@@ -13,7 +13,6 @@
 
 
 function getLoginInfo() {
-    console.log(0);
     $.ajax({
         type: "GET",
         dataType: "json",
@@ -21,15 +20,11 @@ function getLoginInfo() {
         success: validUser,    /// add the function below
         error: dang
     })
-    console.log(3);
 }
 
 
 function validUser(result) {
-    console.log(4);
-
-    let link = JSON.parse(JSON.stringify(result)); //
-    console.log(link.link);
+    let link = JSON.parse(JSON.stringify(result));
     let nextPage = link.link;
     if (link.userID != "") {
         nextPage += "?id=" + encodeURIComponent(link.userID);

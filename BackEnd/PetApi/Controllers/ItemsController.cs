@@ -96,14 +96,13 @@ namespace PetApi.Controllers
         public Item Get(int id)
         {
             Item item = new Item();
-            primaryKey = info.getKeys(tableName).primary;
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
                 Console.WriteLine("Connecting to database...");
                 conn.Open();
 
-                string sql = string.Format("SELECT * FROM {0} WHERE {2} = {1}", tableName, id, primaryKey);
+                string sql = string.Format("SELECT * FROM {0} WHERE itemId = {1}", tableName, id);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())

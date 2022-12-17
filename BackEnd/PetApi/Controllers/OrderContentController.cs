@@ -60,9 +60,9 @@ namespace PetApi.Controllers
         //GET api/<OrderContentController>/5
 
         [HttpGet("{orderID}")]
-        public OrderContent Get(int orderID)
+        public List<OrderContent> Get(int orderID)
         {
-            OrderContent oc = new OrderContent();
+            List<OrderContent> oc = new List<OrderContent>();
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
@@ -74,7 +74,7 @@ namespace PetApi.Controllers
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
                 {
-                    oc = new OrderContent(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString());
+                    oc.Add(new OrderContent(rdr[0].ToString(), rdr[1].ToString(), rdr[2].ToString(), rdr[3].ToString()));
                 }
                 rdr.Close();
 
@@ -89,9 +89,9 @@ namespace PetApi.Controllers
 
         }
 
-            // POST api/<OrderContentController>
+        // POST api/<OrderContentController>
 
-            [HttpPost]
+        [HttpPost]
             public void Post([FromBody] OrderContent oc)
             {
                 MySqlConnection conn = new MySqlConnection(info.GetConnection());
@@ -111,13 +111,14 @@ namespace PetApi.Controllers
                 }
             }
 
-
+        
 
         // PUT api/<OrderContentController>/update
 
-        [HttpPut("Put/{orderID}/{itemID}")]
-        public void Put(int orderID, int itemID, string key, string value)
+        [HttpPut("Put/{orderID}/{itemID}/{value}")]
+        public void Put(int orderID, int itemID, string value)
         {
+            string key = "quantity";
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {

@@ -86,7 +86,6 @@ namespace PetApi.Controllers
         [HttpPost]
         public void Post([FromBody] Customer cust)
         {
-            Console.WriteLine("HELLO????");
             MySqlConnection conn = new MySqlConnection(info.GetConnection());
             try
             {
@@ -111,10 +110,6 @@ namespace PetApi.Controllers
                 }
                 c_userCon.PostDirectly(new C_Usernames(id.ToString(), cust.email, cust.password));
 
-                if (stateCon == null)
-                {
-                    stateCon = new StateController();
-                }
                 conn.Open();
                 string sql = String.Format("insert into {0} values({1},'{2}','{3}','{4}','{5}',{6}, {7}, '{8}','{9}');",tableName, id, cust.firstName, cust.lastName, cust.address, cust.city, cust.stateId ,cust.zipcode, cust.email, cust.phone);
                 MySqlCommand cmd = new MySqlCommand(sql, conn);

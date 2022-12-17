@@ -1,4 +1,5 @@
 insert into C_Username values(1, 'QueenB@gmail.com',MD5('password'));
+insert into C_Username values(2, 'Kourtneybabes@aol.com',md5('password'));
 insert into E_Username values('A1','hub.e@petsupply.com', MD5('password')); 
 
 ####################Customer Inserts##################
@@ -936,6 +937,11 @@ insert into orderContent values(158,122,3,503.88);
 insert into orderContent values(159,378,3,42);
 insert into orderContent values(160,496,8,191.04);
 insert into orderContent values(161,44,5,85);
+insert into orderContent values(201,209,2,20);
+insert into orderContent values(201,122,3,503.88);
+insert into orderContent values(202,378,3,42);
+insert into orderContent values(202,496,8,191.04);
+insert into orderContent values(202,44,5,85);
 
 ####################Orders Inserts##################
 
@@ -1139,7 +1145,8 @@ insert into orders values('197','197','A6','received','paid','ordered');
 insert into orders values('198','198','A16','in progress','paid','in progress');	
 insert into orders values('199','199','A4','Shipped','paid','Shipped');	
 insert into orders values('200','200','A8','in progress','paid','in progress');	
-
+insert into orders values('201','2','A8','in progress', 'paid', 'ordered');
+insert into orders values('202','2','A8','in progress', 'unpaid', 'Shipped');
 
 ####################petTypes Inserts##################
 insert into petTypes values(1, 'Cat');

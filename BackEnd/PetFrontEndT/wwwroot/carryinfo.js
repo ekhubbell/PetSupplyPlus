@@ -2,6 +2,7 @@ let id;
 
 function ParseURL() {
     let url = document.location.href;
+    console.log(url);
     let params = url.split('?')[1].split('&'); //customer.html?id=1
     let data = {};
     let tmp;
@@ -20,3 +21,8 @@ function NextPage(url) {
 
     document.location.href = url;
 }
+
+function getID() {
+    return id;
+}
+

@@ -35,19 +35,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aerod\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
       "projectName": "PetFrontEndT",
-      "projectPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
-      "packagesPath": "C:\\Users\\aerod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aerod\\Downloads\\Database\\Software Dev FA22\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\PetFrontEndT.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\SouthernStuff\\Databases\\GroupProject\\PetSupplyPlus\\BackEnd\\PetFrontEndT\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\aerod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,6 +60,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
